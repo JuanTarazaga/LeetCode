@@ -4,7 +4,7 @@ class Solution {
     public static boolean isPalindrome(int x) {
         // Convertir el número a cadena y verificar si es palíndromo
         String string = Integer.toString(x);
-        //Aquí vemo la longitud del número en cuestión
+        //Aquí vemos la longitud del número en cuestión
         int length = string.length();
         // Después en este bucle "for" lo que hago es indicar que "i" inicia en 
         // el primer carácter, por lo tanto lo que se hace es dividir la cantidad 
